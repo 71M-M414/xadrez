@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/Pawn.svg" type="image/x-icon">
+    <title>Xadrez</title>
+</head>
+
+<body>
+    <div class="intro">
+        <p>
+            O xadrez é um dos jogos mais populares do mundo, sendo praticado por milhões de pessoas em torneios, clubes,
+            escolas. As competições oficiais tiveram início no século XIX, sendo Wilhelm Steinitz, considerado o
+            primeiro campeão mundial.
+        </p>
+        <input type="button" value="Conheça a historia">
+    </div>
+
+    <div class="container-historia">
+        <img src="./img/Rook.svg" alt="" class="torre">
+        <section class="historia">
+
+            <h2>HISTORIA</h2>
+            <p>
+                É um jogo que requer raciocínio lógico e estratégia, não envolve o elemento sorte, com exceção do
+                sorteio das cores no início do jogo.
+
+            </p>
+            <p>
+                O surgimento do xadrez se deu no século VI, na Índia, com o nome de shaturanga, que significa “os quatro
+                elementos de um exército”, em sânscrito. Posteriormente, o jogo foi para a China e para a Pérsia. É da
+                palavra persa shah, que significa rei, que provêm o nome xadrez.
+
+            </p>
+            <p>
+
+                A forma atual do jogo surgiu no Sudoeste da Europa, na segunda metade do século XV, depois de ter
+                evoluído de suas antigas origens persas e indianas.
+            </p>
+
+            <p>
+                O enxadrismo foi reconhecido como esporte pelo Comitê Olímpico Internacional em 2001.
+
+            </p>
+            <p>
+                Acredita-se que o xadrez tenha chegado ao Brasil no ano de 1500 pelos portugueses.
+            </p>
+            <a href="https://mundoeducacao.uol.com.br/educacao-fisica/xadrez.htm#:~:text=O%20surgimento%20do%20xadrez%20se,que%20prov%C3%AAm%20o%20nome%20xadrez."
+                target="_blank">Fonte</a>
+        </section>
+        <img src="./img/Chessboard.svg" alt="" class="chessboard" width="20%">
+    </div>
+
+    <div class="bg-2">
+        <section class="objetivo">
+            <h2>OBJETIVO</h2>
+            <p>
+                O objetivo do jogo de xadrez é dar xeque-mate ao Rei adversário, ou seja, colocando-o sob ameaça de
+                captura (xeque), sem que ele tenha como escapar desse xeque. Para isto, cada jogador dispõe de 16 peças,
+                sendo:
+                <ul>
+                    <li>1 Rei</li>
+                    <li>1 Dama</li>
+                    <li>2 Bispos</li>
+                    <li>2 Cavalos</li>
+                    <li>2 Torres</li>
+                    <li>8 Peões</li>
+                </ul>
+
+
+            </p>
+        </section>
+
+        <section class="mate">
+            <h2>XEQUE MATE</h2>
+            <p>
+                Xeque-mate, ou simplesmente mate, é uma expressão usada no enxadrismo para designar o lance que põe fim
+                à partida, quando o Rei atacado por uma ou mais peças adversárias não pode movimentar-se para outra
+                casa.
+            </p>
+        </section>
+    </div>
+    <section class="como-jogar">
+        <h2>COMO JOGAR</h2>
+        <p>No começo da partida o tabuleiro é colocado de forma que cada jogador tem a casa branca (ou de cor clara) no
+            canto inferior direito.</p>
+        <p> As peças são dispostas da mesma forma sempre. A segunda linha horizontal (ou fileira) é preenchida com
+            peões. As torres ficam nos cantos, seguidas dos cavalos, bispos e finalmente a dama, que sempre fica na casa
+            de sua cor (dama branca na casa branca, dama preta na casa preta). O rei fica na casa remanescente.</p>
+
+        <img src="./img/image-1.jpg" alt="Forma de montar o tabuleiro" width="30%">
+    </section>
+
+    <div class="bg-3">
+        <div class="card">
+            <p>Cada um dos 6 diferentes tipos de peças se move de forma diferente. As peças não podem mover-se através
+                de outras peças (embora o cavalo possa saltar sobre outras peças) e nunca podem avançar para uma casa
+                que tenha uma das suas próprias peças. No entanto, elas podem ser movidas para tomar o lugar de uma peça
+                do oponente que é então capturada. As peças são geralmente movidas para:
+
+                posições onde podem capturar outras peças (movendo até suas casas e depois as removendo
+                defender suas próprias peças em caso de captura
+                ou controlar casas importantes na partida.</p>
+            <input type="button" value="Ver peças">
+        </div>
+    </div>
+    <section class="peças-container">
+        <div class="resultado">
+            <P id="txt">
+                Clique na peça para ver o que ela faz
+            </P>
+
+        </div>
+
+        <div class="peças">
+            <img src="./img/Pawn.svg" alt="" id="pawn">
+            <img src="./img/Bishop.svg" alt="" id="bishop">
+            <img src="./img/Knight.svg" alt="" id="knight">
+            <img src="./img/Rook.svg" alt="" id="rook">
+            <img src="./img/King.svg" alt="" id="king">
+            <img src="./img/Queen.svg" alt="" id="queen">
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
